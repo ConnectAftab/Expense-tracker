@@ -1,0 +1,92 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .container {
+    max-width:100dvh;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+
+  .input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .input-section input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    flex: 1; 
+    margin-right: 10px;
+  }
+  
+  .input-section button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+
+  .expense-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .expense-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .expense-list li span {
+    margin-right: 10px;
+  }
+  
+  .expense-list li button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+  @media (max-width:469px){
+    .container{
+        max-width: 100dvh;
+        height: 100dvh;
+    }
+    .input-section{
+        display: flex;
+        flex-direction:column; 
+        
+        
+    }
+    .input-section input{
+        margin:  5px 5px;
+    }
+  .btn{
+    margin: 5px 5px;
+  }
+  }
